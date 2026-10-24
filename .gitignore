@@ -1,0 +1,32 @@
+# Skip content pages
+# IMPORTANT, if you DO want content pages included in this repo, disable these couple entries!
+authors/
+pages/
+posts/
+products/
+sponsors/
+
+
+
+# Skip extras provided by the CMS
+# IMPORTANT, use '!extras/your-custom-plugin
+# to include a specific plugin.
+extras/
+
+
+
+
+# Skip the database
+data/
+
+# Skip environment-specific configuration files
+config.php
+.htaccess
+.env
+
+# Skip MarkdownMaster CMS base application
+app/
+backend/
+dev-router.php
+index.php
+/.idea/libraries/
